@@ -1,0 +1,88 @@
+.webHeader {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: #FFF2ED;
+  background-color: #1C0B25;
+  position: relative;
+}
+.webHeader div{
+  z-index: 1;
+}
+.webHeaderHeading {
+  font-weight: 800;
+  padding-top: 1rem;
+  padding-bottom: 5rem;
+  line-height: 2rem;
+  font-size: 1.35rem;
+}
+
+.webHeaderDetail h1 {
+  font-size: 5rem;
+  text-align: center;
+  padding: 0 8rem;
+}
+
+.webHeaderDetail p {
+  font-size: 1.75rem;
+  font-weight: 300;
+  text-align: center;
+  line-height: 2rem;
+  padding: 1rem 20rem 3rem 20rem;
+}
+
+.webHeaderButton {
+  position: relative;
+  background-color: #ffffff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 3rem;
+  height: 4.6rem;
+  width: 15.6rem;
+  margin-top: 2rem;
+  margin-bottom: 8rem;
+}
+
+.webHeaderButton button {
+  position: absolute;
+  color: #1C0B25;
+  background-color: #FF879F;
+  height: 4rem;
+  width: 15rem;
+  font-size: 1.25rem;
+  font-weight: 400;
+  border-radius: 3rem;
+  border: 5px solid #1C0B25;
+  transition: all 0.3s;
+}
+
+.webHeaderButton:hover button {
+  height: 4.8rem;
+  width: 15.65rem;
+}
+
+.webHeaderButton > button>a{
+  text-decoration: none;
+  color: #1C0B25;
+}
+@media screen and (max-width:425px) {
+  .webHeaderDetail h1 {
+    font-size: 3rem;
+    text-align: center;
+    padding: 0 3rem;
+  }
+
+  .webHeaderHeading {
+    padding-bottom: 3rem;
+  }
+
+  .webHeaderDetail p {
+    font-size: 1.5rem;
+    font-weight: 300;
+    text-align: center;
+    padding: 2rem 4rem 3rem 4rem;
+  }
+
+}

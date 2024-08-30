@@ -1,0 +1,63 @@
+.webCta{
+    color: #2C1338;
+    background-color: #FFC4C6;
+    margin: 4rem 6rem;
+    border-radius: 40px;
+    padding: 3rem 4rem;
+    display: flex;
+    flex-direction: column;
+}
+.webCtaHeading > h1{
+    font-size: 3rem;
+    font-weight:700;
+    line-height: 3rem;
+    letter-spacing: -1.7px;
+    padding-bottom: 2rem;
+
+}
+.webCtaHeading > h1 > img{
+    height: 2rem;
+    width: 2rem;
+    object-fit: contain;
+
+}
+.webCtaInfo{
+    display: flex;
+    align-items: center;
+}
+.webCtaInfoImg{
+    padding-right: 1rem;
+
+}
+.webCtaInfoImg > img{
+    height: 2.5rem;
+    width: 2.5rem;
+    border-radius: 50%;
+    object-fit: contain;
+}
+.webCtaInfoName{
+    font-size: 1.15rem;
+    padding-right: 0.5rem;
+
+}
+.webCtaInfoPosition{
+    opacity: 0.8;
+
+}
+@media screen and (max-width:425px) {
+    .webCta{
+        margin: 2rem 4rem;
+        padding: 2rem 3rem;
+    }
+    .webCtaInfo{
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    .webCtaHeading > h1{
+        font-size: 2rem;
+        line-height: 2.5rem;
+        letter-spacing: -1.7px;
+        padding-bottom: 2rem;
+    
+    }
+}

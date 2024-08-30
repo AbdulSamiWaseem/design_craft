@@ -1,0 +1,33 @@
+.webQuestions{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: #2C1338;
+    position: relative;
+}
+.webQuestions{
+    z-index: 1;
+}
+.webQuestions >div> h1{
+    font-size: 3rem;
+    font-weight: 800;
+    padding: 0.5rem;
+    text-align: center;
+}
+.webQuestionsDetail{
+    background-color: white;
+    width: 80%;
+    display: grid;
+    grid-template-rows: 1;
+    margin: 2rem 15rem;
+    border-radius: 40px;
+}
+.webQuestionsDetail >div{
+   
+}
+@media screen and (max-width:425px) {
+    .webQuestions >div>h1{
+        font-size: 1.75rem;
+    }
+}
+

@@ -1,0 +1,174 @@
+.webFooter {
+    background-color: #2C1338;
+    color: #FFF2ED;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 1rem;
+}
+
+.webFooterSectionA {
+    background-color: #1C0B25;
+    margin: 3rem 10rem;
+    border-radius: 40px;
+    padding: 3rem;
+    width: 70%;
+
+}
+
+.webFooterSectionA h1 {
+    width: 60%;
+    font-size: 6rem;
+    font-weight: 800;
+    line-height: 6rem;
+}
+
+.webFooterSectionA p {
+    padding: 3rem 0;
+    font-size: 1.25rem;
+    opacity: 0.8;
+    width: 60%;
+    line-height: 1.7rem;
+}
+
+.webFooterCall {
+    height: 4rem;
+    position: relative;
+    display: flex;
+    width: 15rem;
+    align-items: center;
+    padding: 0 1.5rem;
+}
+
+.circle {
+
+    position: absolute;
+    left: 0;
+    height: 4rem;
+    width: 4rem;
+    background-color: #FF879F;
+    border-radius: 2rem;
+    transition: all 0.5s linear;
+}
+
+.webFooterCallText {
+    margin-left: 2rem;
+    font-size: 1rem;
+    font-weight: 800;
+    z-index: 1;
+    cursor: pointer;
+}
+
+.circle:hover {
+    width: 100%;
+    border-radius: 2rem;
+}
+
+.webFooterSectionB h1 {
+    font-size: 3rem;
+}
+
+.webFooterSectionB p {
+    text-align: center;
+    font-size: 1.25rem;
+    opacity: 0.8;
+    padding: 0.5rem;
+    font-weight: lighter;
+    margin-bottom: 5rem;
+}
+
+.webFooterSectionC {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    padding: 4rem;
+
+}
+
+.webFooterSectionC>div {
+    flex: 1;
+}
+
+.webFooterSectionC>div h3 {
+    padding-bottom: 1rem;
+    font-weight: 800;
+}
+
+.webFooterSectionC>div p {
+    font-size: 0.9rem;
+}
+
+.webFooterLinks {
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.webFooterLinks a {
+    color: white;
+    opacity: 0.6;
+    font-size: 0.85rem;
+    font-weight: 600;
+}
+
+@media screen and (max-width:768px) {
+    .webFooterSectionA h1 {
+        font-size: 5rem;
+        line-height: 5rem;
+    }
+    .webFooterLinks{
+        flex-direction: column;
+        align-items: end;
+    }
+    .webFooterLinks > div{
+        margin-top: 1rem;
+    }
+    .webFooterCallText{
+        font-size: 0.99rem;
+    }
+}
+
+@media screen and (max-width:425px) {
+    .webFooterSectionA h1 {
+        font-size: 3rem;
+        line-height: 3rem;
+        width:70%
+    }
+    .webFooterSectionA p {
+        padding: 2rem 0;
+        opacity: 0.8;
+        width: 70%;
+    }
+    .webFooterCallText {
+        margin-left: 2rem;
+        font-size: 1rem;
+        font-weight: 600;
+    }
+    .webFooterSectionA {
+        margin: 3rem 8rem;
+        width: 80%;
+    }
+    .webFooterSectionB h1 {
+        font-size: 2rem;
+    }
+    .webFooterSectionB p{
+        margin-bottom: 2rem;
+    }
+    .webFooterLinks{
+        align-items: center;
+    }
+    .webFooterSectionC{
+        flex-direction: column-reverse;
+        padding: 1rem;
+        align-items: center;
+    }
+    .webFooterSectionC >div >h3{
+    padding-bottom: 0.5rem;
+    }
+    .webFooterSectionC >div{
+        padding: 0.5rem;
+    }
+    .webFooterLinks > div{
+        margin-top: 1.25rem;
+    }
+}

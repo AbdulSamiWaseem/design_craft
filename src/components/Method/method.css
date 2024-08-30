@@ -1,0 +1,143 @@
+.webMethod {
+    background-color: #016AFF;
+    color: white;
+    padding: 3rem;
+    border-radius: 40px;
+    /* width: 100%; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 2rem 7rem;
+    /* padding: 1rem; */
+}
+
+.webMethodContainerA {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    padding-right: 3.5rem;
+    width: 50%;
+
+}
+
+.webMethodContainerA>div {
+    color: #F2A726;
+    font-size: 1.25rem;
+
+}
+
+.webMethodContainerA>h1 {
+    font-size: 3rem;
+    font-weight: 800;
+    line-height: 3.25rem;
+    padding: 1rem 0;
+}
+
+.webMethodContainerA>p {
+    font-size: 1.25rem;
+    line-height: 2rem;
+    opacity: 0.8;
+}
+
+.webMethodContainerA>button {
+    background-color: black;
+    color: white;
+    width: 15rem;
+    height: 4rem;
+    margin: 3rem 0rem 1rem;
+    border: none;
+    border-radius: 40px;
+    font-size: 1.1rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    transition: all 0.2s linear;
+}
+
+.webMethodContainerA>button:hover {
+    padding-right: 1rem;
+}
+
+.webMethodContainerB {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    flex: 1;
+    width: 50%;
+
+}
+.word{
+    padding-right:1rem ;
+    font-size: 5.25rem;
+    font-weight: 800;
+    letter-spacing: -6px;
+}
+.wordImage{
+    padding-right:0.5rem ;
+    font-size: 5.25rem;
+    font-weight: 800;
+    letter-spacing: -6px;
+
+}
+.wordImage >img{
+    
+    object-fit: contain;
+    position: relative;  
+    z-index: 1;
+}
+.img1{
+    height: 4.5rem;
+    width: 4.5rem;
+    top: 0.5rem;
+    right: 0.5rem;
+}
+.img2{
+    height: 5rem;
+    width: 5rem;
+    top: 1rem;
+    right: 1rem;  
+}
+.span1{
+    position: relative;
+    right: 1.25rem;
+}
+.span2{
+    position: relative;
+    right: 2.25rem;
+}
+
+@media screen and (max-width:1024px) {
+    .webMethod{
+        flex-direction: column;
+        padding: 1rem;
+    }
+    .webMethodContainerA{
+        padding: 3rem 2rem 2rem 2rem;
+        width: 100%;
+
+    }
+    .webMethodContainerB{
+        padding: 1rem 2rem 3rem 2rem;
+        width:100%;
+    }
+}
+@media screen and (max-width:425px) {
+    .webMethod{
+    margin: 1rem 4rem;
+        
+    }
+    .word{
+        padding-right:1rem ;
+        font-size: 3.75rem;
+        letter-spacing: -2px;
+    }
+    .wordImage{
+        padding-right:1rem ;
+        font-size: 3.75rem;
+        letter-spacing: -2px;
+    }
+}

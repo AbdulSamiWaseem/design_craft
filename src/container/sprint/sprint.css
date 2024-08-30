@@ -1,0 +1,93 @@
+.webSprint {
+    background-color: #ffffff;
+    border-radius: 30px;
+    padding: 3rem 2rem 4rem 4rem;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    height: 100%;
+}
+
+.webSprintHeader {
+    color: #62bafd;
+    font-size: 1.25rem;
+    line-height: 1rem;
+}
+
+.webSprint h1 {
+    font-size: 3rem;
+    font-weight: 800;
+    padding-bottom: 0.8rem;
+}
+
+.webSprint p {
+    font-size: 1.25rem;
+    opacity: 0.8;
+}
+
+.webSprint h3 {
+    padding-top: 2rem;
+    padding-bottom: 1rem;
+    font-size: 1.25rem;
+}
+li{
+    padding-bottom: 1rem;
+    font-size: 1.25rem;
+    opacity: 0.8;
+}
+.webSprintBtn{
+    position: relative;
+    background-color: #ffffff;
+    border: 5px solid #1C0B25;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 3rem;
+    height: 5rem;
+    width: 20rem;
+    margin-top: 1rem;
+    margin-bottom: 2rem;
+  }
+  .webSprintBtn button{
+    position: absolute;
+    color: #1C0B25;
+    background-color: #FF879F;
+    height: 4rem;
+    width: 19rem;
+    font-size: 1.25rem;
+    font-weight:400;
+    border-radius: 3rem;
+    border: 5px solid white;
+    transition: all 0.3s;
+  }
+
+  .webSprintBtn:hover button{
+    height: 4.45rem;
+    width: 19.45rem;
+    border: none;
+  }
+  .webSprintBtn:hover {
+    border: none;
+  }
+  @media screen and (max-width:768px) {
+    .webSprint{
+      margin-bottom:2rem ;
+    }
+    .webSprint h3 {
+      padding-top: 1rem;
+    }
+  
+    .webSprintBtn {
+      width: 90%;
+    }
+  
+    .webSprintBtn button {
+      width: 100%;
+    }
+  
+    .webSprintBtn:hover button {
+      width: 100%;
+    }
+  
+  }
+  

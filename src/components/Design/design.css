@@ -1,0 +1,102 @@
+.webDesign {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: #2C1338;
+    position: relative;
+    margin-top: 4rem;
+}
+.webDesign div{
+    z-index: 1;
+}
+
+.webDesignHeading h1 {
+    font-size: 3rem;
+    font-weight: 800;
+    letter-spacing: -0.1rem;
+}
+
+.webDesignDetail p {
+    font-weight: 100;
+    padding: 0.5rem;
+    font-size: 1.5rem;
+}
+
+.webDesignBtn {
+    border-radius: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #2C1338;
+    width: 15rem;
+    height: 3rem;
+    position: relative;
+    padding: 5px;
+}
+
+.webDesignBtn button {
+    border-radius: 2rem;
+    width: 50%;
+    height: 100%;
+    border: none;
+    color: white;
+    background-color: #2C1338;
+    font-size: 1rem;
+}
+
+.active {
+    background-color: white !important;
+    color: #2C1338 !important;
+}
+
+.webDesignInfo {
+    display: flex;
+    justify-content: center;
+    padding: 2rem 8rem;
+}
+
+.webDesignInfoPkg {
+    margin-right: 1rem;
+}
+
+.webDesignInfo > div {
+    flex: 1;
+}
+
+.webDesignInfoRefer {
+    background-color: #62BAFD;
+    margin-top: 1rem;
+    border-radius: 30px;
+    padding: 3rem;
+    color: white;
+}
+
+.webDesignInfoRefer h1 {
+    font-size: 1.75rem;
+}
+
+.webDesignInfoRefer p {
+    font-size: 1.15rem;
+    opacity: 0.8;
+    font-weight: 200;
+    line-height: 1.75rem;
+    margin-top: 1rem;
+}
+@media screen and (max-width:1024px) {
+    .webDesignInfo {
+        padding: 2rem 4rem;
+    }
+}
+@media screen and (max-width:768px) {
+    .webDesignInfo{
+        flex-direction: column;
+    }
+    .webDesignInfoPkg {
+        margin-right: 0rem;
+    }
+}
+@media screen and (max-width:425px) {
+    .webDesignInfo{
+        padding: 2rem 4rem;
+    }
+}

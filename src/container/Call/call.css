@@ -1,0 +1,45 @@
+.webCall{
+    background-color: white;
+    padding: 3rem;
+    border-radius: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+.webCall h1{
+    font-size: 2.5rem;
+    font-weight: 800;
+    padding: 1rem 0;
+}
+.webCall p{
+    font-size: 1.25rem;
+    opacity: 0.8;
+    margin-bottom: 2rem;
+}
+.webCallArrow{
+    /* background-color: #FF879F; */
+    height: 4rem;
+    position: relative;
+    display: flex;
+    align-items: center;
+    padding: 0 1.5rem;
+}
+.webCallArrowText{
+    margin-left: 2rem;
+    font-size: 1.25rem;
+    font-weight: 800;
+    z-index: 1;
+}
+.webCallArrow .circle{
+    position: absolute;
+    left: 0;
+    height: 4rem;
+    width: 4rem;
+    background-color: #FF879F;
+    border-radius: 2rem;
+    transition: all 0.5s linear;
+}
+.webCallArrow:hover .circle{
+    width: 100%;
+    border-radius: 2rem;
+}

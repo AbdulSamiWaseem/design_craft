@@ -1,0 +1,157 @@
+.webFunction {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+
+.webFunction div {
+    z-index: 1;
+}
+
+.webFunctionHeading>h1 {
+    font-size: 3.5rem;
+    font-weight: 800;
+    color: #2C1338;
+}
+
+.webFunctionContainerA {
+    display: flex;
+    justify-content: center;
+
+}
+
+.webFunctionContainerB {
+    display: flex;
+    justify-content: center;
+
+}
+
+.webFunctionContainerA>div {
+    width: 40%;
+    margin: 1rem;
+
+}
+
+.webFunctionContainerB>div {
+    width: 40%;
+    margin: 1rem;
+
+}
+
+.webFuntionExtended {
+    background-color: white;
+    width: 83%;
+    height: 100%;
+    margin: 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 40px;
+    color: #2C1338;
+    padding: 1rem 2rem;
+}
+
+.webFuntionExtendedA >div>img {
+    height: 4rem;
+    width: 4rem;
+    object-fit: contain;
+}
+.webFuntionExtendedA{
+    display: flex;
+    align-items: center;
+    width: 100%;
+
+}
+.webFunctionContent{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+.webFunctionExtendedB{
+    width: 90%;
+}
+.webFunctionList{
+    display: flex;
+    flex-direction: column;
+}
+.webFunctionList >p{
+    font-size: 1.35rem;
+    opacity: 0.8;
+    margin-bottom: 1rem;
+    cursor: pointer;
+}
+
+.webFunctionList > a{
+    font-size: 1.35rem;
+    margin-bottom: 1rem;
+    text-decoration: none;
+    cursor: pointer;
+
+}
+.webFunctionList>a>span{
+    color: #016AFF;
+
+}
+.webFunctionLists{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.arrow{
+    font-size: 2rem;
+}
+@media screen and (max-width:768px) {
+    .webFunction {
+        width: 100%;
+    }
+
+    .webFunctionContainerA {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .webFunctionContainerB {
+        flex-direction: column;
+        align-items: center;
+
+    }
+
+    .webFunctionContainerA>div {
+        width: 80%;
+    }
+
+    .webFunctionContainerB>div {
+        width: 80%;
+    }
+
+    .webFuntionExtended {
+        width: 80%;
+    }
+   
+}
+
+@media screen and (max-width:425px) {
+    .webFunctionHeading>h1 {
+        font-size: 2.5rem;
+    }
+    .webFuntionExtended{
+        padding: 2rem 2rem;
+    }
+    .webFunctionExtendedB{
+        margin-top: 1rem;
+    }
+    .webFunctionLists{
+        flex-direction: column;
+        align-items: flex-start;
+
+    }
+    .arrow{
+        font-size: 1.25rem;
+    }
+    
+
+}

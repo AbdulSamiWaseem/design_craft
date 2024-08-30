@@ -1,0 +1,100 @@
+.webMonthly {
+  background-color: #ffffff;
+  border-radius: 30px;
+  padding: 3rem 2rem 2rem 4rem;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  height: 100%;
+}
+
+.webMonthly div {
+  color: #62bafd;
+  font-size: 1.25rem;
+  line-height: 1rem;
+}
+.webMonthlyTop{
+  color: #62bafd;
+}
+.webMonthly h1 {
+  font-size: 3rem;
+  font-weight: 800;
+  padding-bottom: 0.8rem;
+}
+
+.webMonthly p {
+  font-size: 1.25rem;
+  opacity: 0.8;
+}
+
+.webMonthly h3 {
+  padding-top: 2rem;
+  padding-bottom: 1rem;
+  font-size: 1.25rem;
+}
+
+li {
+  padding-bottom: 1rem;
+  font-size: 1.25rem;
+  opacity: 0.8;
+}
+
+.webMonthlyBtn {
+  position: relative;
+  background-color: #ffffff;
+  border: 5px solid #1C0B25;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 3rem;
+  height: 5rem;
+  width: 20rem;
+  margin-top: 1rem;
+  margin-bottom: 2rem;
+}
+
+.webMonthlyBtn button {
+  position: absolute;
+  color: #1C0B25;
+  background-color: #FFDE91;
+  height: 4rem;
+  width: 19rem;
+  font-size: 1.25rem;
+  font-weight: 400;
+  border-radius: 3rem;
+  border: 5px solid white;
+  transition: all 0.3s;
+}
+
+.webMonthlyBtn:hover button {
+  height: 4.45rem;
+  width: 19.45rem;
+  border: none;
+}
+
+.webMonthlyBtn:hover {
+  border: none;
+}
+
+@media screen and (max-width:768px) {
+  .webMonthly{
+    margin-bottom:2rem ;
+  }
+  .webMonthly h3 {
+    padding-top: 1rem;
+  }
+
+  .webMonthlyBtn {
+    width: 90%;
+  }
+
+  .webMonthlyBtn button {
+    width: 100%;
+  }
+
+  .webMonthlyBtn:hover button {
+    width: 100%;
+  }
+
+
+}

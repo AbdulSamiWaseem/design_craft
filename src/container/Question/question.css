@@ -1,0 +1,53 @@
+.webQuestion {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    padding: 2rem;
+}
+
+.webQuestionContainer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+
+.webQuestionDetail p {
+    font-size: 1.25rem;
+    opacity: 0.8;
+    font-weight: 200;
+    width: 80%;
+
+}
+
+.webQuestionA {
+    font-size: 1.25rem;
+    font-weight: 700;
+    width: 80%;
+}
+
+.arrowLeft {
+    font-size: 1.5rem;
+}
+
+.arrowDown {
+    font-size: 1.5rem;
+}
+
+@media screen and (max-width:425px) {
+    .webQuestionA {
+        font-size: 1.15rem;
+    }
+
+    .arrowLeft {
+        font-size: 1rem;
+    }
+
+    .arrowDown {
+        font-size: 1rem;
+    }
+
+    .webQuestionDetail p {
+        font-size: 1rem;
+    }
+}
